@@ -1,0 +1,111 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(255, 229, 158);
+    width:225px;
+    z-index: 200;
+    padding-top: 5px;  
+ }
+
+
+
+ .sidebar-box{ 
+margin-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 18px;
+display: flex;
+align-items: center;
+background-color: rgb(255, 174, 0);
+margin-bottom: 5px;
+margin-right: 12px;
+border-radius: 18px;
+text-decoration:
+
+
+ }
+ .sidebar-box:hover {
+   transform: scale(1.05); /* Increase the size of the element */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+   transition: 0.15s;
+ }
+ .sidebar-box:active{
+   opacity: 40%;
+   transform: scale(1.02);
+   transition: 0.10s;
+ }
+
+ .Logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+ }
+
+ .Nav-text{
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+
+  
+ }
+
+ .wallet{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-bottom: 650px;
+    background-color: rgb(253, 0, 0);
+    width:100px;
+    z-index: 200;
+    padding-top: 5px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 30px;
+    
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+ 
+ }
+
+ .content{
+    margin-left: 225px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    font-weight: 600;
+    
+    align-items: center;
+    text-align: center;
+ }
+
+ .add{   
+    font-size: 24px;
+    color: rgb(104, 104, 104);
+ }
+
+ .sponsor{
+    font-weight: 600;
+    font-family: Berlin Sans FB;
+    font-size: 30px;   
+ }
+
+
+
+ a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }

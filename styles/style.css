@@ -1,0 +1,147 @@
+body {
+    background:rgba(173, 216, 230, 0.4);
+  }
+
+h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.types
+{
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 23px;
+    
+}
+.type-picture
+{
+    width: 300px;
+    
+}
+.types > img
+{
+display: block;
+width: 100%;
+border-radius: 25px;
+
+}
+.types > .typename
+{
+    position: absolute;
+    inset: 0;
+    font-size: 4rem;
+    padding: 2rem;
+    background:rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    
+    
+
+}
+
+.types > img,
+.types > .typename
+{
+    transition: 500ms ease-in-out;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+
+}
+
+.types > .typename.fade
+{
+    opacity: 0;
+}
+.types:hover > .typename.fade
+{
+opacity: 1;
+}
+
+
+.types:hover >img.blur
+{
+    filter: blur(3px);
+}
+.Services{
+
+    margin-left: 225px;
+   
+}
+
+
+/* Define the styles for the button */
+/* Define the styles for the button */
+.Sanjith {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f7d2c0c3;
+    color: #402d2f;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Define the hover and active states of the button */
+  .Sanjith:hover {
+    background-color: #D9B8A9;
+    color: #543D3F;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.542);
+  }
+  
+  .Sanjith:active {
+    background-color: #CDAE9D;
+    color: #543D3F;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(0.98);
+  }
+  
+  /* Define the pseudo-elements for the button */
+  .Sanjith::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+  }
+  
+  .Sanjith::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #F7D2C0;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: all 0.3s ease-out;
+  }
+  
+  .Sanjith:hover::after {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+  
+
+
